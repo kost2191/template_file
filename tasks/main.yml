@@ -1,0 +1,5 @@
+---
+- name: copy template
+- template:
+    src: templates/file.j2
+    dest: /tmp/file
